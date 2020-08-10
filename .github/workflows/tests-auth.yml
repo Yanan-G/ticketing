@@ -1,4 +1,4 @@
-name: tests
+name: tests-auth
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -6,8 +6,6 @@ on:
 #   push:
 #     branches: [ master ]
   pull_request
-#     branches: [ master ]
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
